@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<circle r="2" fill="var(--elevenBlack)" cx="2.5" cy="10"/>
+<circle r="2" fill="var(--elevenBlack)" cx="10" cy="10"/>
+<circle r="2" fill="var(--elevenBlack)" cx="17.5" cy="10"/>
+<circle r="2" fill="var(--elevenBlack)" cx="2.5" cy="2.5"/>
+<circle r="2" fill="var(--elevenBlack)" cx="7.5" cy="2.5"/>
+<circle r="2" fill="var(--elevenBlack)" cx="12.5" cy="2.5"/>
+<circle r="2" fill="var(--elevenBlack)" cx="17.5" cy="2.5"/>
+<circle r="2" fill="var(--elevenBlack)" cx="2.5" cy="17.5"/>
+<circle r="2" fill="var(--elevenBlack)" cx="7.5" cy="17.5"/>
+<circle r="2" fill="var(--elevenBlack)" cx="12.5" cy="17.5"/>
+<circle r="2" fill="var(--elevenBlack)" cx="17.5" cy="17.5"/>
+
