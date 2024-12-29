@@ -2,7 +2,6 @@
     import Domino from "$lib/components/Domino.svelte";
 
     import '$lib/styles/domino.css'
-    import { fade, slide } from "svelte/transition";
 
     let n1: number = 0;
     let n2: number = 0;
@@ -10,7 +9,7 @@
     let runner: number = 0;
 
     function run() {
-        runner = setInterval(randGen, 600);
+        runner = setInterval(randGen, 200);
     }
 
     function stop() {
@@ -24,11 +23,9 @@
 </script>
 
 <div id="canvasWrap">
-    {#key [n1,n2]}
-    <svg id="canvas" transition:slide>
+    <svg id="canvas">
         <Domino num1={n1} num2={n2} x={5} y={5}/>
     </svg>
-    {/key} 
     <div id="modulationHolder">
         <div>
             <button class="btn btn-square btn-lg" on:click={() => { if (n1 < 12) n1++}}>+</button>
